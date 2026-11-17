@@ -23,3 +23,6 @@ Open `index.html` in a browser or publish the folder from a GitHub repository th
 ## Latest amendments
 - Removed the text overlay captions on the main photograph and the small masthead tagline.
 - Switched the sign-up form to a Formspree `action` endpoint, with inline error/success feedback. The House of Rose & Lantern Formspree endpoint is now configured.
+
+
+Revision: original high-resolution supplied logo, compact hero, dropdown navigation, Our Story comparison artwork, and problem-led story. Formspree endpoint remains xjywwpwb. Privacy notice needs completion before public launch.

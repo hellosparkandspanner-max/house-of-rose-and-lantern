@@ -17,24 +17,35 @@
 <body id="top">
   <a class="skip" href="#invitation">Skip to invitation</a>
   <header class="masthead">
+    <details class="menu-dropdown">
+      <summary aria-label="Open navigation menu"><span>MENU</span><span class="menu-symbol" aria-hidden="true">☰</span></summary>
+      <nav aria-label="Main navigation">
+        <a href="#top">HOME</a>
+        <a href="#story">OUR STORY</a>
+        <a href="#invitation">THE INVITATION</a>
+        <a href="privacy.html">PRIVACY NOTICE</a>
+      </nav>
+    </details>
     <a class="brand-link" href="#top" aria-label="House of Rose &amp; Lantern, back to top">
-      <img class="logo" src="assets/brand-emblem.png" alt="House of Rose and Lantern: antique lantern framed by roses" width="820" height="820">
+      <img class="logo" src="assets/brand-original.jpg" alt="House of Rose and Lantern original floral lantern logo" width="900" height="900">
     </a>
-    <nav class="main-nav" aria-label="Main navigation">
-      <a href="#top">HOME</a>
-      <a href="#story">OUR STORY</a>
-      <a href="#invitation">THE INVITATION</a>
-    </nav>
   </header>
   <main>
     <section class="hero" aria-label="The Storybook Cloak">
       <img src="assets/storybook-cloak.jpg" alt="A child wearing a flowing dusky pink cloak and holding a glowing lantern in a rose garden at sunset" width="1774" height="887" fetchpriority="high">
     </section>
-    <section class="intro" id="story" aria-labelledby="moment-heading">
-      <div class="eyebrow"><span></span> ✦ <span></span></div>
-      <p class="kicker">HOUSE OF ROSE &amp; LANTERN</p>
-      <h1 id="moment-heading">Some moments are too special to be hidden beneath an ordinary coat.</h1>
-      <p>For the little ones who never want the magic to end, we're creating a debut collection of beautiful, thoughtfully designed children's cloaks.</p>
+    <section class="intro" id="story" aria-labelledby="story-heading">
+      <div class="eyebrow" aria-hidden="true"><span></span> ✦ <span></span></div>
+      <h1 id="story-heading">OUR STORY</h1>
+      <p class="story-lead">Some moments are too special to be hidden beneath an ordinary coat.</p>
+      <div class="story-content">
+        <img src="assets/coat-vs-cloak.jpg" alt="The same magical occasion, showing the difference between covering a special dress with a winter coat and wearing a flowing Storybook Cloak" loading="lazy" width="1254" height="1254">
+        <div class="story-text">
+          <p>It began with a little girl who didn't want to cover up her princess dress.</p>
+          <p>Her outfit was part of the magic, but the weather still called for something warm. Like so many parents, I wanted her to be comfortable without hiding the very thing she'd been so excited to wear.</p>
+          <p>That's why House of Rose &amp; Lantern was born: to create beautifully considered children's cloaks that offer warmth while letting those special outfits shine.</p>
+        </div>
+      </div>
     </section>
     <section class="invitation" id="invitation" aria-labelledby="invitation-heading">
       <div class="invitation-copy">
@@ -43,9 +54,7 @@
         <p class="script">Join the First Chapter</p>
         <p class="invite-description">Be among the first to discover our debut collection of beautifully considered children's cloaks.</p>
       </div>
-      <div class="invitation-art">
-        <img src="assets/lantern-roses.png" alt="An antique glowing lantern surrounded by blush roses" loading="lazy" width="469" height="688">
-      </div>
+
       <form id="signup-form" class="signup" method="POST" action="https://formspree.io/f/xjywwpwb">
         <div class="fields">
           <label for="name">Name <span class="optional">(optional)</span></label>
@@ -62,7 +71,7 @@
     </section>
   </main>
   <footer>
-    <img src="assets/brand-emblem.png" alt="House of Rose and Lantern" width="820" height="820" loading="lazy">
+    <img src="assets/brand-original.jpg" alt="House of Rose and Lantern" width="900" height="900" loading="lazy">
     <p>© <span id="year">2026</span> House of Rose &amp; Lantern. All rights reserved.</p>
   </footer>
   <script src="assets/site.js" defer></script>
